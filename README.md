@@ -26,7 +26,8 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-While they both loop through an array or object .map returns a new array automatically and .forEach does not. 
+While they are similar is that they both loop through an array, .map returns a new array and .forEach does not. The .map method is considered to return a brand new array that contains transformed values. 
+.map does not change or alter the original array.
 
 2. Explain the difference between a callback and a higher order function.
 A higher order function uses a callback as a parameter. A callback function is passed into a higher order function.
