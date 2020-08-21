@@ -16,7 +16,7 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: nestedFunction is able to access the variable internal because closure allows any nested function to reach outside it's scope for more information. In this case the information is the variable internal, which was delcared in the parent function MyFunction.
+// Explanation: nestedFunction is able to access the variable internal because closure allows any nested function to reach outside it's scope for more information. In this case the information is the variable internal, which was delcared in the parent function MyFunction. It is important to note that function cannot reach 'inward' to child functions for information. Closure only works 'outwards'.
 
 /* Task 2: Counter */
 
