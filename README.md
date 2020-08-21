@@ -32,7 +32,7 @@ While they both loop through an array or object .map returns a new array automat
 A higher order function uses a callback as a parameter. A callback function is passed into a higher order function.
 
 3. What is closure?
-Closure refers to an inner function calling information from a parent function.
+Closure refers to an inner function calling information from outside its scope.
 
 4. Describe the four rules of the 'this' keyword.
 
