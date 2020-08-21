@@ -31,5 +31,26 @@ console.log(cuboid.surfaceArea()); // 130
 class CubeMaker extends CuboidMaker {
     constructor(attrs){
         super(attrs);
+        this.length = this.width = this.height;
+    }
+
+    cubeVolume() {
+        return Math.pow(this.length, 3);
+    }
+
+    cubeSurfaceArea(){
+        return 6 * (this.length * this.length);
     }
 }
+
+const cube = new CubeMaker({
+length: 4,
+width: 4,
+height: 4,
+});
+
+console.log(cube.cubeVolume());
+console.log(cube.cubeSurfaceArea()); 
+
+// cube volume = side * side * side
+// cude surface area = 6*(side * side)
